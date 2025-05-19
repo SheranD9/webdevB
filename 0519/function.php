@@ -1,0 +1,7 @@
+<?php
+function str2html(string $string): string
+{
+ return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
+}
+// 関数を実行
+// 関数を（）で実行
