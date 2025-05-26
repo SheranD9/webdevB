@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration-Rakuten</title>
+  </head>
+  <body>
+    <h1>Rakuten</h1>
+    <p>Create a new Rakuten account Already a member?<a href="#">sign in</a></p>
+
+    <form method="post" action="">
+      <label for="Email">Email(Required)</label>
+      <input type="email" id="Email" name="Email" required />
+      <br />
+
+      <label for="Re-enter_email">Re-enter email (Required)</label>
+      <input type="email" id="Email" name="Email" required />
+      <br />
+
+      <label for="username">username</label>
+      <input type="text" id="username" name="username" required />
+
+      <br />
+      <input
+        type="checkbox"
+        id="emailuseforusername"
+        name="emailuseforusername"
+      />
+      <label for="emailuseforusername">Use my email as my username</label>
+      <br />
+
+      <label for="password">Password(Required)</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="re-enter_password">Re-enter password(Required)</label>
+      <input
+        type="password"
+        id="re-enter_password"
+        name="re-enter_password"
+        required
+      />
+      <br />
+
+      <input type="checkbox" id="show_password" name="show_password" />
+      <label for="show password">Show password</label>
+      <br />
+
+      <label for="first_name">First name(Required)</label>
+      <input type="text" id="first_name" name="first_name" required />
+
+      <br />
+      <label for="last_name">Last name(Required)</label>
+      <input type="text" id="last_name" name="last_name" required />
+      <br />
+      <p>By registering, you agree to the following</p>
+
+      <ul>
+        <li>
+          <a href="#">Terms and Conditions </a>of the Rakuten Membership Program
+        </li>
+        <br />
+        <li><a href="#">Privacy Policy</a> of Rakuten Group, Inc.</li>
+      </ul>
+      <br />
+      <input type="submit" value="Create account" />
+    </form>
+  </body>
+</html>
