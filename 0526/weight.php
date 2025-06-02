@@ -24,9 +24,3 @@ echo '後'.$difference.'kgで体重です。<br>'
 
 ;
 
-
-
-// if(!is_numeric($height) || $height <= 0){
-//     echo "体重は0。";
-//     exit;
-// }
